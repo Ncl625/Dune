@@ -1,0 +1,111 @@
+//Text
+
+@import "./variables";
+@import "./mixin";
+
+.text {
+    &-dark {
+        color: $dark;
+    }
+    &-gold {
+        color: $gold;
+    }
+    &-gold-mid {
+        color: $gold-mid;
+    }
+    &-gold-light {
+        color: $gold-light;
+    }
+    &-sm {
+        font-size: $sm;
+    }
+    &-md {
+        font-size: $md;
+    }
+    &-lg {
+        font-size: $lg;
+    }
+    &-xl {
+        font-size: $xl;
+    }
+    &-xxl {
+        font-size: $xxl;
+    }
+
+    // Allignment
+    &-start {
+        text-align: left;
+    }
+    &-center {
+        text-align: center;
+    }
+    &-end {
+        text-align: right;
+    }
+}
+
+
+// Background Color
+
+.bg {
+    &-dark {
+        color: $dark;
+    }
+    &-gold {
+        color: $gold;
+    }
+    &-gold-light {
+        color: $gold-light;
+    }
+}
+
+.container {
+    max-width: 1220px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.d-flex {
+    @include d-flex;
+}
+
+// Font Family
+.f {
+    &-milonga {
+        font-family: "Milonga", cursive;
+    }
+
+    .m {
+        &-1 {
+            margin: 1rem;
+        }
+        &-2 {
+            margin: 2rem;
+        }
+        &-3 {
+            margin: 3rem;
+        }
+        &-4 {
+            margin: 4rem;
+        }
+        &-5 {
+            margin: 5rem;
+        }
+        &b-1 {
+            margin-bottom: 1rem;
+        }
+        &b-2 {
+            margin-bottom: 2rem;
+        }
+        &b-3 {
+            margin-bottom: 3rem;
+        }
+        &b-4 {
+            margin-bottom: 4rem;
+        }
+        &b-5 {
+            margin-bottom: 5rem;
+        }
+    }
+}
+

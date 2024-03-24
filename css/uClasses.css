@@ -1,0 +1,96 @@
+.text-dark {
+  color: #000000;
+}
+.text-gold {
+  color: #be984f;
+}
+.text-gold-mid {
+  color: #c0af70;
+}
+.text-gold-light {
+  color: #cfb591;
+}
+.text-sm {
+  font-size: 0.8rem;
+}
+.text-md {
+  font-size: 1.1rem;
+}
+.text-lg {
+  font-size: 1.4rem;
+}
+.text-xl {
+  font-size: 1.8rem;
+}
+.text-xxl {
+  font-size: 2.1rem;
+}
+.text-start {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-end {
+  text-align: right;
+}
+
+.bg-dark {
+  color: #000000;
+}
+.bg-gold {
+  color: #be984f;
+}
+.bg-gold-light {
+  color: #cfb591;
+}
+
+.container {
+  max-width: 1220px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.d-flex-column {
+  flex-direction: column;
+}
+
+.f-milonga {
+  font-family: "Milonga", cursive;
+}
+.f .m-1 {
+  margin: 1rem;
+}
+.f .m-2 {
+  margin: 2rem;
+}
+.f .m-3 {
+  margin: 3rem;
+}
+.f .m-4 {
+  margin: 4rem;
+}
+.f .m-5 {
+  margin: 5rem;
+}
+.f .mb-1 {
+  margin-bottom: 1rem;
+}
+.f .mb-2 {
+  margin-bottom: 2rem;
+}
+.f .mb-3 {
+  margin-bottom: 3rem;
+}
+.f .mb-4 {
+  margin-bottom: 4rem;
+}
+.f .mb-5 {
+  margin-bottom: 5rem;
+}/*# sourceMappingURL=uClasses.css.map */
